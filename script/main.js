@@ -35,8 +35,8 @@ function resize() {
 		$('.textcontainercontainer').css('left', '5%');
 		extra = $(window).width() * 0.20;
 	} else {
-		$('.container').css('right', '0');
-		$('.textcontainercontainer').css('left', '0');
+		$('.container').css('right', '1%');
+		$('.textcontainercontainer').css('left', '1%');
 	}
 
 	//Add size to container to textfill works
