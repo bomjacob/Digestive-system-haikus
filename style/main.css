@@ -3,19 +3,14 @@ body {
 	height:100%;
 }
 .container {
-	margin-right: 15%;
-    float: right;
     height: 100%;
     position: absolute;
     right: 0px;
-	width: 30%;
 }
 .textcontainercontainer {
-	position: relative;
+	position: absolute;
+	left: 0px;
 	height: 100%;
-	width: 49%;
-	margin-left: 5%;
-	float: left;
 }
 .textcontainer {
 	position: relative;

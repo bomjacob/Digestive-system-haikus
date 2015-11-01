@@ -25,6 +25,21 @@ String.prototype.repeat = function(count) {
 };
 
 function resize() {
+	//Add margin if widescreen
+	var resdif = ($(window).width()/$(window).height());
+	var extra = 0;
+	if (resdif >= 1.6) {
+		$('.container').css('right', '10%');
+		$('.textcontainercontainer').css('left', '10%');
+		extra = $(window).width() * 0.20;
+	} else {
+		$('.container').css('right', '0');
+		$('.textcontainercontainer').css('left', '0');
+	}
+
+	//Add size to container to textfill works
+	$('.textcontainer').width($(window).width()-$('img').width()-extra-5);
+
 	$('.textcontainer').textfill({
 		maxFontPixels: -1,
 		widthOnly: false,
