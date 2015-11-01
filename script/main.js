@@ -1,16 +1,16 @@
 var haikus = {};
-haikus.def = "Digestive system\nA haiku presentation\nJust hover the names\n\nDigestive system\nThe way of processing food\nGives materials";
-haikus.mouth = "All starts at the mouth\nChewing is mandatory\nOr you can't swallow";
-haikus.pharynx = "Second is the pharynx\nMaking sure you do not choke\nOn things you swallow";
-haikus.esophagus = "The esophagus\nTransporting mush further down\nTowards your stomach";
-haikus.stomach = "";
-haikus.pancreas = "";
-haikus.s_intes = "";
-haikus.anus = "";
-haikus.appendix = "";
-haikus.l_intes = "";
-haikus.gall = "";
-haikus.liver = "";
+haikus.def			= "Digestive system\nA haiku presentation\nJust hover the names\n\nDigestive system\nThe way of processing food\nGives materials";
+haikus.mouth		= "All starts at the mouth\nChewing is mandatory\nOr you can't swallow";
+haikus.pharynx		= "Second is the pharynx\nMaking sure you do not choke\nOn things you swallow";
+haikus.esophagus	= "The esophagus\nTransporting mush further down\nTowards your stomach";
+haikus.stomach		= "";
+haikus.pancreas		= "";
+haikus.s_intes		= "";
+haikus.anus			= "";
+haikus.appendix		= "";
+haikus.l_intes		= "";
+haikus.gall			= "";
+haikus.liver		= "";
 
 var span;
 var resdif;
