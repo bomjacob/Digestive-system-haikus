@@ -52,7 +52,7 @@ function resize() {
 
 function update(haiku) {
 	var text = haikus[haiku];
-	text += "<br/>".repeat(6 - (text.match(/\n/gi) || []).length);
+	text += "<br/>".repeat(7 - (text.match(/\n/gi) || []).length);
 	text = text.replace(/\n/gi, '<br/>');
 
 	span.html(text);
