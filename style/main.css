@@ -1,8 +1,9 @@
 body {
 	font-family: 'Amatic SC', cursive;
+	height:100%;
 }
 .container {
-	margin-right: 10%;
+	margin-right: 15%;
     float: right;
     height: 100%;
     position: absolute;
@@ -12,7 +13,7 @@ body {
 .textcontainercontainer {
 	position: relative;
 	height: 100%;
-	width: 54%;
+	width: 49%;
 	margin-left: 5%;
 	float: left;
 }
