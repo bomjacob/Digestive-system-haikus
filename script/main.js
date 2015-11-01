@@ -29,8 +29,8 @@ function resize() {
 	var resdif = ($(window).width()/$(window).height());
 	var extra = 0;
 	if (resdif >= 1.6) {
-		$('.container').css('right', '10%');
-		$('.textcontainercontainer').css('left', '10%');
+		$('.container').css('right', '8%');
+		$('.textcontainercontainer').css('left', '5%');
 		extra = $(window).width() * 0.20;
 	} else {
 		$('.container').css('right', '0');
