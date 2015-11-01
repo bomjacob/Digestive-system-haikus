@@ -37,10 +37,11 @@ function resize() {
 	} else {
 		$('.container').css('right', '1%');
 		$('.textcontainercontainer').css('left', '1%');
+		extra = $(window).width() * 0.02;
 	}
 
 	//Add size to container to textfill works
-	$('.textcontainer').width($(window).width()-$('img').width()-extra-5);
+	$('.textcontainer').width(($(window).width()-$('img').width()-extra)*0.98);
 
 	$('.textcontainer').textfill({
 		maxFontPixels: -1,
