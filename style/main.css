@@ -1,0 +1,29 @@
+body {
+	font-family: 'Amatic SC', cursive;
+}
+.container {
+	margin-right: 10%;
+    float: right;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+	width: 30%;
+}
+.textcontainercontainer {
+	position: relative;
+	height: 100%;
+	width: 54%;
+	margin-left: 5%;
+	float: left;
+}
+.textcontainer {
+	position: relative;
+	text-align: center;
+	font-weight: 700;
+	width: 100%;
+	height: 100%;
+	white-space: nowrap;
+}
+img {
+	height: 100%;
+}
