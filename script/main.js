@@ -59,7 +59,7 @@ $(document).ready(function() {
 		resize();
 	});
 
-	setTimeout(function(){
+	$(window).load(function() {
 		$(window).resize(); //sometimes doesn't work earlier :/
-	},1000);
+	});
 });
