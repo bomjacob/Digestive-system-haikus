@@ -59,5 +59,7 @@ $(document).ready(function() {
 		resize();
 	});
 
-	$(window).resize(); //sometimes doesn't work earlier :/
+	setTimeout(function(){
+		$(window).resize(); //sometimes doesn't work earlier :/
+	},1000);
 });
