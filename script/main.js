@@ -33,7 +33,7 @@ function resize() {
 	if (resdif >= 1.6) {
 		$('.container').css('right', '8%');
 		$('.textcontainercontainer').css('left', '5%');
-		extra = $(window).width() * 0.20;
+		extra = $(window).width() * 0.13;
 	} else {
 		$('.container').css('right', '1%');
 		$('.textcontainercontainer').css('left', '1%');
