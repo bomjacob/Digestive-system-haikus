@@ -58,4 +58,6 @@ $(document).ready(function() {
 		update('def');
 		resize();
 	});
+
+	$(window).resize(); //sometimes doesn't work earlier :/
 });
