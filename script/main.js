@@ -13,6 +13,8 @@ haikus.gall = "";
 haikus.liver = "";
 
 var span;
+var resdif;
+var extra;
 
 String.prototype.repeat = function(count) {
     if (count < 1) return '';
@@ -26,8 +28,8 @@ String.prototype.repeat = function(count) {
 
 function resize() {
 	//Add margin if widescreen
-	var resdif = ($(window).width()/$(window).height());
-	var extra = 0;
+	resdif = ($(window).width()/$(window).height());
+	extra = 0;
 	if (resdif >= 1.6) {
 		$('.container').css('right', '8%');
 		$('.textcontainercontainer').css('left', '5%');
