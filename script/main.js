@@ -67,17 +67,17 @@ $(document).ready(function() {
 		resize();
 	}).resize();
 
-	$('map').imageMapResize();
-
-	$('area').hover(function () {
-		update($(this).attr('title'));
-		resize();
-	}, function () {
-		update('def');
-		resize();
-	});
-
 	$(window).load(function() {
 		$(window).resize(); //sometimes doesn't work earlier :/
+
+		$('map').imageMapResize();
+
+		$('area').hover(function () {
+			update($(this).attr('title'));
+			resize();
+		}, function () {
+			update('def');
+			resize();
+		});
 	});
 });
