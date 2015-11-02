@@ -7,23 +7,23 @@ haikus.liver		= "The vital liver\nMetabolic processes\nCleaning up your blood";
 haikus.stomach		= "Stomach is a sack\nDissolving all that enters\nIt is acidic";
 haikus.pancreas		= "Pancreas creates\nMany important hormones\nThat you surely need";
 haikus.gall			= "Gallbladder stores bile\nGives it to small intestine\nWholly nonvital";
-haikus.s_intes		= "";
-haikus.anus			= "";
-haikus.appendix		= "";
-haikus.l_intes		= "";
+haikus.s_intes		= "The small intestine\nAbsorption of food takes place\nPart of bigger tract";
+haikus.l_intes		= "The large intestine\nContinues from the small one\nWater is absorbed";
+haikus.appendix		= "Useless appendix\nNobody knows its function\nA blind ended tube";
+haikus.anus			= "The end of the line\nControls feces expulsion\nConcludes the travel";
 
 var span;
 var resdif;
 var extra;
 
 String.prototype.repeat = function(count) {
-    if (count < 1) return '';
-    var result = '', pattern = this.valueOf();
-    while (count > 1) {
-        if (count & 1) result += pattern;
-        count >>= 1, pattern += pattern;
-    }
-    return result + pattern;
+	if (count < 1) return '';
+	var result = '', pattern = this.valueOf();
+	while (count > 1) {
+		if (count & 1) result += pattern;
+		count >>= 1, pattern += pattern;
+	}
+	return result + pattern;
 };
 
 function resize() {
