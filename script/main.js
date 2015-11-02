@@ -3,6 +3,7 @@ haikus.def			= "Digestive system\nA haiku presentation\nJust hover the names\n\n
 haikus.mouth		= "All starts at the mouth\nChewing is mandatory\nOr you can't swallow";
 haikus.pharynx		= "Second is the pharynx\nMaking sure you do not choke\nOn things you swallow";
 haikus.esophagus	= "The esophagus\nTransporting mush further down\nTowards your stomach";
+haikus.liver		= "The vital liver\nMetabolic processes\nCleaning up your blood";
 haikus.stomach		= "";
 haikus.pancreas		= "";
 haikus.s_intes		= "";
@@ -10,7 +11,6 @@ haikus.anus			= "";
 haikus.appendix		= "";
 haikus.l_intes		= "";
 haikus.gall			= "";
-haikus.liver		= "";
 
 var span;
 var resdif;
