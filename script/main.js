@@ -6,11 +6,11 @@ haikus.esophagus	= "The esophagus\nTransporting mush further down\nTowards your 
 haikus.liver		= "The vital liver\nMetabolic processes\nCleaning up your blood";
 haikus.stomach		= "Stomach is a sack\nDissolving all that enters\nIt is acidic";
 haikus.pancreas		= "Pancreas creates\nMany important hormones\nThat you surely need";
+haikus.gall			= "Gallbladder stores bile\nGives it to small intestine\nWholly nonvital";
 haikus.s_intes		= "";
 haikus.anus			= "";
 haikus.appendix		= "";
 haikus.l_intes		= "";
-haikus.gall			= "";
 
 var span;
 var resdif;
